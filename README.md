@@ -4,6 +4,8 @@ Thanks for taking the time to apply at Seita Energy Flexibility! This task is th
 
 This task hopefully takes not more than half a day. What we really want is to discuss the results and your choices. You can stop after half a day ― we'll be interested in discussing how well you spent that time, looking at usable results.
 
+The task tests some data engineering (understanding and querying data mainly), but as we build software that runs in the wild on a daily basis, and we do that in a team, it also tests your software engineering skills.
+
 ## Form
 
 We'd like you to put your code in a git repository on the web. This can be Github, Gitlab or Bitbucket etc.
@@ -38,6 +40,9 @@ Use three internal thresholds to determine the answer and you can also decide if
 
 ## Deliverables
 
-* The endpoints should be demonstratable by you. Bonus: Clear instructions for us how to run this toy application.
-* Both endpoints need clear documentation, at least in the docstring. How to use, what to expect if things go well and what if they don't.
+What will we take into consideration when we rate this assignment?
+
+* The first priority is of course that the logic behaves correctly (input leads to the correct output). But there are more priorities, and they do matter a lot for successful software development, see below.
+* The endpoints should be demonstratable by you. But they should also be easy to start up for us (to see if they work). So please include clear instructions for somebdy who is not you how to run this toy application (this begins with installing dependencies).
+* Both endpoints need clear documentation for users (think of the frontend developers mentioned above), at least in the docstring. How to use, how input looks like, what to expect if things go well and what if they don't.
 * Testing is crucial. Time might not allow you to test all aspects, but please provide unit tests which test the basic behaviour. They should use dummy test data, not the real data.
