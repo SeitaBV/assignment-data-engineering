@@ -2,7 +2,7 @@
 
 Thanks for taking the time to apply at Seita Energy Flexibility! This task is the technical part of the application procedure.
 
-This task hopefully takes not more than half a day. What we really want is to discuss the results and your choices. You can stop after half a day ― we'll be interested in discussing how well you spent that time, looking at usable results.
+This task hopefully takes not more than half a day. Of course, perfection easily takes more. What we really want is to discuss the results and your choices. You can stop after half a day ― we'll be interested in discussing how well you spent that time, looking at usable results.
 
 The task tests some data engineering (understanding and querying data mainly), but as we build software that runs in the wild on a daily basis, and we do that in a team, it also tests your software engineering skills.
 
