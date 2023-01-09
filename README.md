@@ -29,7 +29,7 @@ Options are to look at timely-beliefs for data representation and FlexMeasures f
 
 ## Endpoint 1: GET /forecasts
 
-Given two parameters ("now" and "then", both datetimes), return the three kinds of forecasts that are most relevant for "then", given the knowledge you can assume was available at "now".
+Given two parameters ("now" and "then", both datetimes), return the three kinds of forecasts for "then" that are the most recent, given the knowledge you can assume was available at "now".
 
 Note: The ``belief_horizon`` field matters here. It tells you how much earlier the forecast for a specific time slot (``event_start``) was made.
 
