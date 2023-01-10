@@ -16,8 +16,9 @@ There should be a Readme telling us what to see and do.
 
 ## The task
 
-We want you to build two API endpoints for GETting weather information.
-We have prepared [a dataset with weather forecasts in CSV](weather.csv) to be used. It contains forecasts for temperature, wind speed, irradiance - up to 48 hours in advance.
+We want you to build two API endpoints for GETting weather information as JSON response.
+
+We have prepared [a dataset with weather forecasts in CSV](weather.csv) to be used. It contains forecasts for temperature, wind speed, irradiance - up to 48 hours in advance. In terms of this data, we forecast an "event", for instance that some temperature value comes about. This event has a time and a value. The time at which the forecast (a "belief") is made can be derived with the belief horizon.
 
 As target audience, you can think about frontend developers wanting to show the responses to users. They don't know Python.
 
