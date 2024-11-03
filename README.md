@@ -18,7 +18,10 @@ There should be a Readme telling us what to see and do.
 
 We want you to build two API endpoints for GETting weather information as JSON response.
 
-We have prepared [a dataset with weather forecasts in CSV](weather.csv) to be used. It contains forecasts for temperature, wind speed, irradiance - up to 48 hours in advance. In terms of this data, we forecast an "event", for instance that some temperature value comes about. This event has a time and a value. The time at which the forecast (a "belief") is made can be derived with the belief horizon.
+We have prepared [a dataset with weather forecasts in CSV](weather.csv) to be used.
+- It contains forecasts for temperature, wind speed, irradiance - up to 48 hours in advance.
+- In terms of this data, we forecast an "event", for instance that some temperature value will happen. This event has a time ("event start") and a value ("event value").
+- Also, this data tells you the time at which the forecast (a "belief") has been made - it can be derived with the belief horizon column (this is useful for simulations and relevant to this task).
 
 As target audience, you can think about frontend developers wanting to show the responses to users. They don't know Python.
 
@@ -48,3 +51,4 @@ What will we take into consideration when we rate this assignment?
 * The endpoints should be demonstratable by you. But they should also be easy to start up for us (to see if they work). So please include clear instructions for somebdy who is not you how to run this toy application (this begins with installing dependencies).
 * Both endpoints need clear documentation for users (think of the frontend developers mentioned above), at least in the docstring. How to use, how input looks like, what to expect if things go well and what if they don't.
 * Testing is crucial. Time might not allow you to test all aspects, but please provide unit tests which test the basic behaviour. They should use dummy test data, not the real data.
+* We appreciate that you place TODOs where (due to a lack of time) you provide us with a clear idea how further work would make this code mode robust, improve its test coverage and improve usability.
